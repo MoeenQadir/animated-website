@@ -11,11 +11,11 @@ const MobileNavbar = ({ isOpen, handleClose }) => {
                 </svg>
             </button>
             <ul className="flex flex-col justify-center items-center h-full bg-[#75d3f2] space-y-8">
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Use Cases</a></li>
-                <li><a href="#">Integrations</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="#">Mission</a></li>
+                <li><a href="#">Platform</a></li>
+                <li><a href="#">Contribute</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </div>
     );
@@ -37,7 +37,7 @@ const Header = () => {
             <header>
                 <nav
                     id="header_"
-                    className="fixed top-0 left-0 z-20 w-full"
+                    className="fixed top-0 left-0 z-20 w-full bg-[#75d3f2]"
                 >
                     <div className="container mx-auto px-6 md:px-12 lg:px-6">
                         <div className="flex items-center justify-between py-4">
@@ -61,11 +61,11 @@ const Header = () => {
                             </button>
                             <div id="navbar" className="hidden lg:flex lg:items-center">
                                 <ul className="flex space-x-6 text-black font-medium">
-                                    <li><a href="#">Product</a></li>
-                                    <li><a href="#">Use Cases</a></li>
-                                    <li><a href="#">Integrations</a></li>
-                                    <li><a href="#">Pricing</a></li>
-                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Mission</a></li>
+                                    <li><a href="#">Platform</a></li>
+                                    <li><a href="#">Contribute</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>

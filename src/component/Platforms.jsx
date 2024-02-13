@@ -4,20 +4,20 @@ import {Button} from "@material-tailwind/react";
 const Platforms = () => {
     return (
         <>
-            <div className="relative">
+            <div className="relative bg-[#1f1541]">
                 <img
                     className="absolute inset-0 w-full h-screen"
                     src="/assetes/screens/screen3.png"
                     alt="hero background image"
                 />
                 <div className="relative mx-auto px-6 md:px-12 lg:px-6">
-                    <div className="mb-12 text-center space-y-4 md:mb-20 lg:w-11/12 lg:mx-auto">
+                    <div className="lg:mb-12 text-center space-y-4 md:mb-20 lg:w-11/12 lg:mx-auto">
                         <>
                             <div className="lg:pt-32 md:pt-12 container w-full m-auto lg:px-6 md:px-12">
                                 <div className="relative lg:flex lg:items-center lg:gap-4">
                                     <div className="overflow-hidden w-full lg:w-5/12 lg:-mr-16">
                                         <img
-                                            className="w-80 mx-auto"
+                                            className="w-60 lg:80 mx-auto mt-8 lg:0"
                                             src="/assetes/banners/boy.png"
                                             alt="project illustration"
                                         />
