@@ -1,93 +1,43 @@
-import React, { useState } from 'react';
-import {RxHamburgerMenu} from "react-icons/rx";
+import React from 'react';
 import {Button} from "@material-tailwind/react";
 
-const MobileNavbar = ({ isOpen, handleClose }) => {
-    return (
-        <div className={`fixed top-0 left-0 h-screen w-full bg-white z-30 transform ${isOpen ? '' : '-translate-x-full'} transition-transform duration-300 ease-in-out`}>
-            <button className="absolute top-0 right-0 m-8" onClick={handleClose}>
-                <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M6.293 7.293a1 1 0 011.414 0L10 10.586l2.293-2.293a1 1 0 111.414 1.414L11.414 12l2.293 2.293a1 1 0 01-1.414 1.414L10 13.414l-2.293 2.293a1 1 0 01-1.414-1.414L8.586 12 6.293 9.707a1 1 0 010-1.414z" clipRule="evenodd" />
-                </svg>
-            </button>
-            <ul className="flex flex-col justify-center items-center h-full bg-[#75d3f2] space-y-8">
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Use Cases</a></li>
-                <li><a href="#">Integrations</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </div>
-    );
-};
-
 const Hero = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggleNavbar = () => {
-        setIsOpen(!isOpen);
-    };
-
-    const closeNavbar = () => {
-        setIsOpen(false);
-    };
-
     return (
         <>
-            <header>
-                <nav
-                    id="header_"
-                    className="fixed top-0 left-0 z-20 w-full"
-                >
-                    <div className="container mx-auto px-6 md:px-12 lg:px-6">
-                        <div className="flex items-center justify-between py-4">
-                            <a href="#" aria-label="logo" className={"flex items-center"}>
-                                <img
-                                    src="/assetes/banners/boy.png"
-                                    className="w-12 rounded-full"
-                                    alt="animated website"
-                                    width={144}
-                                    height={48}
-                                />
-                                <h2 className={"ms-2 text-md mt-4 font-semibold"}>Animated <br/><span className={"ms-4"}>Website</span></h2>
-                            </a>
-                            <button
-                                aria-label="hamburger"
-                                id="hamburger"
-                                className="block lg:hidden"
-                                onClick={toggleNavbar}
-                            >
-                                <div className="hamburger"><RxHamburgerMenu /></div>
-                            </button>
-                            <div id="navbar" className="hidden lg:flex lg:items-center">
-                                <ul className="flex space-x-6 text-black font-medium">
-                                    <li><a href="#">Product</a></li>
-                                    <li><a href="#">Use Cases</a></li>
-                                    <li><a href="#">Integrations</a></li>
-                                    <li><a href="#">Pricing</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-                <MobileNavbar isOpen={isOpen} handleClose={closeNavbar} />
-            </header>
             <div className="relative">
                 <img
-                    className="absolute inset-0 w-full h-screen"
-                    src="/assetes/screens/screen1.png"
+                    className="absolute mt-48 inset-0 w-full h-screen"
+                    src="/assetes/screens/screen2.png"
                     alt="hero background image"
                 />
-                <div className="relative container mx-auto px-6 md:px-12 lg:px-6">
-                    <div className="mb-12 pt-40 text-center space-y-4 md:mb-20 md:pt-56 lg:w-8/12 lg:mx-auto">
-                        <h1 className="text-black text-center text-3xl font-bold sm:text-4xl md:text-5xl">
-                            Uniting Voices, Ideas, and <br/> Dreams for a Brighter Tomorrow!
-                        </h1>
-                        <p> #ForwardFartherFaster </p>
-                        <Button  className="rounded-full bg-[#ffffca] text-bold text-black">
-                            Explore Now
-                        </Button>
+                <div className="relative mx-auto px-6 md:px-12 lg:px-6">
+                    <div className="mb-12 pt-40 text-center space-y-4 md:mb-20 md:pt-56 lg:w-11/12 lg:mx-auto">
+                        <>
+                            <div className="lg:pt-32 md:pt-12 container w-full m-auto lg:px-6 md:px-12">
+                                <div className="relative lg:flex lg:items-center lg:gap-4">
+                                    <div className="text-center lg:text-left lg:mt-12 lg:mt-0 w-full sm:mx-auto lg:mr-auto lg:w-6/12">
+                                        <h1 className="text-white font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white">
+                                            Our Mission
+                                        </h1>
+                                        <p className="mt-8 text-white dark:text-gray-300">
+                                            At the heart of the #ForwardFartherFaster initiative lies a mission that transcends age, background, and boundaries. As Jimmi embarks on his 11th year, his vision propels us towards a world where every individual, irrespective of their unique journey, actively contributes to shaping a future bathed in hope, innovation, and inclusivity.
+                                            Our mission is anchored in the belief that the power to transform the world lies within the collective experiences and ideas of humanity. Jimmi envisions a future where the vibrant tapestry of diverse stories forms the foundation for building a society that is not just technologically advanced but also compassionate and forward-thinking.
+                                        </p>
+                                        <Button  className="rounded-full mt-12 bg-[#ffffca] text-bold text-black">
+                                            Join Now
+                                        </Button>
+                                    </div>
+                                    <div className="overflow-hidden w-full lg:w-5/12 lg:-mr-16">
+                                        <img
+                                            className="w-80 mx-auto"
+                                            src="/assetes/banners/banner-img.png"
+                                            alt="project illustration"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </>
+
                     </div>
                 </div>
             </div>
