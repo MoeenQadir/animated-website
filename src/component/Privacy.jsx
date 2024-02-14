@@ -52,7 +52,7 @@ const Privacy = () => {
                                 </Button>
                             </div>
                         </div>
-                       <footer className={"mt-40 text-white w-full flex flex-col items-center justify-center"}>
+                       <footer className={"lg:mt-40 mt-20 text-white w-full flex flex-col items-center justify-center"}>
                            <h3>Terms of Service</h3>
                            <div className={"flex space-x-4"}>
                                <span className={"h-8 w-8 rounded-full mt-8 flex justify-center items-center border-2 border-white"}><BsInstagram /></span>
