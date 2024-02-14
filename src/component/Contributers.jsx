@@ -18,13 +18,13 @@ import {
 const Contributers = () => {
     return (
         <>
-            <div className="relative">
+            <div className="relative bg-[#18153a]">
                 <img
-                    className="absolute lg:mt-28 inset-0 w-full h-screen"
+                    className="absolute lg:mt-28 w-full h-screen"
                     src="/assetes/screens/screen4.png"
                     alt="hero background image"
                 />
-                <div className="relative mx-auto px-6 md:px-12 lg:px-6">
+                <div className="relative md:mt-72 lg:mt-40 mx-auto px-6 md:px-12 lg:px-6">
                     <div className="mb-4 text-center space-y-4 md:mb-8 lg:w-11/12 lg:mx-auto">
                             <div className="lg:pt-6 md:pt-4 container w-full m-auto lg:px-6 md:px-12">
                                 <div className="relative lg:flex lg:items-center lg:gap-4">
@@ -33,7 +33,7 @@ const Contributers = () => {
                                             <h1 className="text-white pt-8 lg:pt-0 font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white">
                                                 How To Contribute
                                             </h1>
-                                            <p className="mt-8 text-white dark:text-gray-300">
+                                            <p className="lg:mt-8 mt-2 text-white dark:text-gray-300">
                                                 At #ForwardFartherFaster, we believe that everyone's journey, ideas, and dreams are integral to shaping a brighter future. Your personal narrative is a valuable thread in the rich tapestry of human experience. Share your story with us on our platform, where every unique perspective contributes to the collective narrative of hope and progress. Your participation is what propels this initiative forward. Whether you choose to share a personal story, spread the word, engage with the community
                                                 Together, we can illuminate the path to a future filled with hope, kindness, and innovation.
                                             </p>
@@ -95,9 +95,12 @@ const Contributers = () => {
                                 </div>
                             </div>
                     </div>
-                    <div className={"relative flex flex-col md:flex-row container mx-auto lg:space-x-8 lg:justify-evenly mx-auto"}>
+                    <h1 className="text-white w-full text-center mt-8 lg:mb-32 pt-8 lg:pt-0 font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white">
+                        How To Join
+                    </h1>
+                    <div className={"relative flex flex-col lg:flex-row py-2 container mx-auto lg:space-x-8 lg:justify-evenly mx-auto"}>
                         <div className={"w-full lg:w-3/12"}>
-                            <Card className="mt-6 w-80 h-72  text-center glossy-card text-white relative">
+                            <Card className="mt-6 w-80 h-72 mx-auto lg:mx-0 text-center glossy-card text-white relative">
                                 <CardBody className={"my-auto"}>
                                     <Typography variant="h5" color="white" className="mb-2">
                                         Share Your Story
@@ -130,7 +133,7 @@ const Contributers = () => {
                             </div>
                         </div>
                         <div className={"w-full lg:w-3/12"}>
-                            <Card className="mt-6 w-80 h-72 text-center glossy-card text-white relative">
+                            <Card className="mt-6 w-80 h-72 text-center mx-auto lg:mx-0 glossy-card text-white relative">
                                 <CardBody className={"my-auto"}>
                                     <Typography variant="h5" color="white" className="mb-2">
                                         Share Your StoryEngage with the Community

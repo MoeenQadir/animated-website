@@ -6,9 +6,9 @@ import {FaDiscord, FaTwitter} from "react-icons/fa";
 const Privacy = () => {
     return (
         <>
-            <div className="relative">
+            <div className="relative bg-[#18153a]">
                 <img
-                    className="absolute inset-0 w-full h-screen h-auto"
+                    className="absolute inset-0 w-full lg:h-screen lg:h-auto object-contain"
                     style={{"height":"auto"}}
                     src="/assetes/screens/screen5.png"
                     alt="hero background image"
@@ -21,7 +21,7 @@ const Privacy = () => {
                             <div className={"w-full flex justify-center"}>
                                 <div className={"w-full lg:w-11/12 flex items-center "}>
                                     <div className={"w-full lg:w-10/12 mx-auto flex items-center justify-center"}>
-                                        <Card className="mt-6 w-full glossy-card text-white text-center relative">
+                                        <Card className="mt-6 w-full mx-4 lg:px-0 glossy-card text-white text-center relative">
                                             <CardBody>
                                                 <Typography variant="h5" color="white" className="mb-2">
                                                     Data Privacy
@@ -36,14 +36,14 @@ const Privacy = () => {
                             </div>
                     </div>
                     <div className={"w-full text-center"}>
-                    <h3 className={"text-white text-2xl md:text-3xl mt-32 lg:text-4xl font-bold"}>Share Your Story</h3>
+                    <h3 className={"text-white text-2xl md:text-3xl lg:mt-32 mt-8 lg:text-4xl font-bold"}>Share Your Story</h3>
                         <h5 className={"text-white mt-6"}>Type your story below and be a catalyst for change. Your words matter, and your voice makes a <br/> difference. Together, let's create a future filled with shared dreams and collective progress</h5>
                     </div>
                     <div className={"container mx-auto"}>
-                        <h3 className={"text-white lg:ms-64 text-2xl md:text-3xl mt-32 lg:text-4xl font-bold"}>Describe yourself</h3>
-                        <div className={"w-9/12 mx-auto flex justify-center flex-col items-center"}>
-                            <textarea className="resize-x text-card mt-6 h-80 w-10/12 p-5 text-white shadow-md" placeholder={"Tell us about yourself here...."}></textarea>
-                            <div className={"flex justify-end w-full lg:me-44  text-white mt-4"}>
+                        <h3 className={"text-white ms-4 md:ms-8 lg:ms-64 text-2xl md:text-3xl lg:mt-32 mt-16 lg:text-4xl font-bold"}>Describe yourself</h3>
+                        <div className={"lg:w-9/12 w-11/12 mx-auto flex justify-center flex-col items-center"}>
+                            <textarea className="resize-x text-card mt-6 h-80 w-full lg:w-10/12 p-5 text-white shadow-md" placeholder={"Tell us about yourself here...."}></textarea>
+                            <div className={"flex justify-end w-full me-4 lg:me-44  text-white mt-4"}>
                                 <p>Minimum 1024 Characters</p>
                             </div>
                             <div className={"flex justify-center mt-8"}>

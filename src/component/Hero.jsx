@@ -6,12 +6,12 @@ const Hero = () => {
         <>
             <div className="relative">
                 <img
-                    className="absolute mt-48 inset-0 w-full h-screen"
+                    className="absolute mt-48 md:mt-96 lg:mt-48 inset-0 w-full h-screen"
                     src="/assetes/screens/screen2.png"
                     alt="hero background image"
                 />
-                <div className="relative mx-auto px-6 md:px-12 lg:px-6">
-                    <div className="mb-12 pt-40 text-center space-y-4 md:mb-20 md:pt-56 lg:w-11/12 lg:mx-auto">
+                <div className="relative md:mt-32 lg:mt-0 mx-auto px-6 md:px-12 lg:px-6">
+                    <div className=" pt-10 text-center space-y-4 md:mb-20 md:pt-56 lg:w-11/12 lg:mx-auto">
                         <>
                             <div className="lg:pt-32 md:pt-12 container w-full m-auto lg:px-6 md:px-12">
                                 <div className="relative lg:flex lg:items-center lg:gap-4">
