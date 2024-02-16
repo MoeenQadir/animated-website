@@ -73,14 +73,14 @@ const Header = () => {
                 </nav>
                 <MobileNavbar isOpen={isOpen} handleClose={closeNavbar} />
             </header>
-            <div className="relative">
+            <div className="relative h-screen">
                 <img
-                    className="absolute inset-0 w-full h-screen"
+                    className="absolute inset-0 w-full h-full"
                     src="/assetes/screens/screen1.png"
                     alt="hero background image"
                 />
                 <div className="relative container mx-auto px-6 md:px-12 lg:px-6">
-                    <div className="mb-12 pt-40 text-center space-y-4 md:mb-20 md:pt-56 lg:w-8/12 lg:mx-auto">
+                    <div className="mb-12 pt-40 text-center space-y-4 md:mb-20 md:pt-44 lg:w-8/12 lg:mx-auto">
                         <h1 className="text-black text-center text-3xl font-bold sm:text-4xl md:text-5xl">
                             Uniting Voices, Ideas, and <br/> Dreams for a Brighter Tomorrow!
                         </h1>

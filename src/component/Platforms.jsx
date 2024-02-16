@@ -4,16 +4,16 @@ import {Button} from "@material-tailwind/react";
 const Platforms = () => {
     return (
         <>
-            <div className="relative bg-[#1f1541]">
+            <div className="relative bg-[#1f1541] h-auto lg:h-screen">
                 <img
-                    className="absolute inset-0 w-full h-screen"
+                    className="absolute inset-0 w-full h-full"
                     src="/assetes/screens/screen3.png"
                     alt="hero background image"
                 />
-                <div className="relative md:mt-96 lg:mt-0 mx-auto px-6 md:px-12 lg:px-6">
-                    <div className="lg:mb-12 text-center space-y-4 md:mb-20 lg:w-11/12 lg:mx-auto">
+                <div className="relative mx-auto px-6 md:px-12 lg:px-6">
+                    <div className="lg:mb-12 text-center space-y-4 lg:w-11/12 lg:mx-auto">
                         <>
-                            <div className="lg:pt-32 md:pt-12 container w-full m-auto lg:px-6 md:px-12">
+                            <div className=" container w-full m-auto lg:px-6 md:px-12">
                                 <div className="relative lg:flex lg:items-center lg:gap-4">
                                     <div className="overflow-hidden w-full lg:w-5/12 lg:-mr-16">
                                         <img
@@ -22,7 +22,7 @@ const Platforms = () => {
                                             alt="project illustration"
                                         />
                                     </div>
-                                    <div className="text-center lg:text-left  lg:mt-12 mt-8 w-full sm:mx-auto lg:mr-auto lg:w-6/12">
+                                    <div className="text-center lg:text-left  w-full sm:mx-auto lg:mr-auto lg:w-6/12">
                                         <h1 className="text-white font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white">
                                             Our Platform
                                         </h1>

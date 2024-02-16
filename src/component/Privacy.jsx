@@ -8,13 +8,13 @@ const Privacy = () => {
         <>
             <div className="relative bg-[#181539] lg:bg-none">
                 <img
-                    className="absolute inset-0 w-full lg:h-screen"
+                    className="absolute inset-0 w-full lg:h-screen h-auto"
                     style={{"height":"auto"}}
                     src="/assetes/screens/screen5.png"
                     alt="hero background image"
                 />
                 <div className="relative mx-auto">
-                    <div className="mb-12 text-center space-y-4 md:mb-20 md:pt-32 lg:w-11/12 lg:mx-auto">
+                    <div className="mb-12 text-center space-y-4 md:mb-20 md:pt-72 lg:w-11/12 lg:mx-auto">
                             <Button  className="rounded-full my-16 bg-[#ffffca] text-bold text-black">
                                 Join the Movement
                             </Button>
