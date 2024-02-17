@@ -30,9 +30,9 @@ const Platforms = () => {
                                             Designed to be more than just a website, this platform serves as a dynamic space where individuals from all corners of the globe come together to share personal stories.
                                         </p>
                                         <ul className="list-disc font-semibold text-white space-y-4 mt-4 ms-10">
-                                            <li>Sharing Personal Stories and Experiences</li>
-                                            <li>Discussing Visions for a Better Future, Especially through AI and Technology</li>
-                                            <li>Offering Unfiltered Expressions and Thoughts</li>
+                                            <li className={"animate__animated animate__fadeInDown headingEffect"}>Sharing Personal Stories and Experiences</li>
+                                            <li className={"animate__animated animate__fadeInDown headingEffect"}>Discussing Visions for a Better Future, Especially through AI and Technology</li>
+                                            <li className={"animate__animated animate__fadeInDown headingEffect"}>Offering Unfiltered Expressions and Thoughts</li>
                                         </ul>
 
                                         <Button  className="rounded-full animate-pulse buttonEffect mb-4 mt-6 bg-[#ffffca] text-bold text-black"

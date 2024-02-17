@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { Button } from '@material-tailwind/react';
+import { motion } from 'framer-motion';
 
 const MobileNavbar = ({ isOpen, handleClose }) => {
     return (
@@ -121,16 +122,34 @@ const Header = () => {
                 />
                 <div className="relative container mx-auto px-6 md:px-12 lg:px-6">
                     <div className="mb-12 pt-40 text-center space-y-4 md:mb-20 md:pt-44 lg:w-8/12 lg:mx-auto">
-                        <h1 className="text-black text-center text-3xl font-bold sm:text-4xl md:text-5xl animate__animated animate__fadeInDown headingEffect">
-                            Uniting Voices, Ideas, and <br /> Dreams for a Brighter Tomorrow!
-                        </h1>
+                        <motion.div
+                            initial={{ opacity: 0, y: -20 }} // Initial state (before animation), y: -20 means moving 20 pixels upwards
+                            animate={{ opacity: 1, y: 0 }}   // Animation state, y: 0 means no vertical movement (position remains the same)
+                            transition={{ duration: 0.8 }}
+                        >
+                            <h1 className="text-black text-center text-3xl font-bold sm:text-4xl md:text-5xl animate__animated animate__fadeInDown headingEffect">
+                                Uniting Voices, Ideas, and <br /> Dreams for a Brighter Tomorrow!
+                            </h1>
+                        </motion.div>
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }} // Initial state (before animation), y: -20 means moving 20 pixels upwards
+                            animate={{ opacity: 1, y: 0 }}   // Animation state, y: 0 means no vertical movement (position remains the same)
+                            transition={{ duration: 0.8 }}
+                        >
                         <p>#ForwardFartherFaster</p>
+                        </motion.div>
+                        <motion.div
+                            initial={{ opacity: 0, x: 20 }} // Initial state (before animation), y: -20 means moving 20 pixels upwards
+                            animate={{ opacity: 1, x: 0 }}   // Animation state, y: 0 means no vertical movement (position remains the same)
+                            transition={{ duration: 0.8 }}
+                        >
                         <Button
                             style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                             }}
                             className="rounded-full bg-[#ffffca] buttonEffect text-bold text-black transform hover:scale-110 transition duration-300 shadow-2xl">
                             Explore Now
                         </Button>
+                        </motion.div>
                     </div>
                 </div>
             </div>
