@@ -11,13 +11,13 @@ const Platforms = () => {
                     alt="hero background image"
                 />
                 <div className="relative mx-auto px-6 md:px-12 lg:px-6">
-                    <div className="lg:mb-12 text-center space-y-4 lg:w-11/12 lg:mx-auto">
+                    <div className="text-center space-y-4 lg:w-11/12 lg:mx-auto">
                         <>
                             <div className=" container w-full m-auto lg:px-6 md:px-12">
                                 <div className="relative lg:flex lg:items-center lg:gap-4">
                                     <div className="w-full lg:w-5/12 lg:-mr-16">
                                         <img
-                                            className="w-60 lg:80 mx-auto animate-pulse mt-8 lg:0 dImg transition-all duration-300 transform hover:scale-125 hover:rotate-12"
+                                            className="w-60 lg:80 mx-auto animate-pulse pt-8 lg:0 dImg transition-all duration-300 transform hover:scale-125 hover:rotate-12"
                                             src="/assetes/banners/boy.png"
                                             alt="project illustration"
                                         />

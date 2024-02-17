@@ -57,13 +57,13 @@ const Contributers = () => {
                                         </Button>
                                     </div>
                                     <div className="overflow-hidden w-full lg:w-5/12 lg:-mr-16"
-                                         data-aos="fade-left"
+                                         data-aos="fade-up"
                                          data-aos-offset="50"
                                          data-aos-easing="ease-in-sine">
                                         <div className="w-[32rem]">
                                             <Timeline>
-                                                <TimelineItem data-aos="fade-right"
-                                                              data-aos-offset="70"
+                                                <TimelineItem data-aos="fade-up"
+                                                              data-aos-offset="50"
                                                               data-aos-easing="ease-in-sine">
                                                     <TimelineConnector />
                                                     <TimelineHeader>
@@ -85,23 +85,23 @@ const Contributers = () => {
                                                         <TimelineIcon className="p-4 border-2 border-white transition-all duration-300 transform hover:scale-105">
                                                         </TimelineIcon>
                                                         <Typography variant="h5" color="white"
-                                                                    data-aos="fade-left"
-                                                                    data-aos-offset="70"
+                                                                    data-aos="fade-up"
+                                                                    data-aos-offset="60"
                                                                     data-aos-easing="ease-in-sine">
                                                             50%
                                                         </Typography>
                                                     </TimelineHeader>
                                                     <TimelineBody className="pb-8">
                                                         <Typography color="gary" className="font-normal text-white"
-                                                                    data-aos="fade-left"
-                                                                    data-aos-offset="80"
+                                                                    data-aos="fade-up"
+                                                                    data-aos-offset="70"
                                                                     data-aos-easing="ease-in-sine">
                                                             Engage with the Community
                                                         </Typography>
                                                     </TimelineBody>
                                                 </TimelineItem>
                                                 <TimelineItem
-                                                    data-aos="fade-left"
+                                                    data-aos="fade-up"
                                                     data-aos-offset="100"
                                                     data-aos-easing="ease-in-sine">
                                                     <TimelineHeader>

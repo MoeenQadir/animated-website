@@ -53,7 +53,7 @@ const Hero = () => {
                                 </div>
                                 <div className="w-full lg:w-5/12 lg:-mr-16">
                                     <img
-                                        className="w-60 lg:96 mx-auto dImg transition-all duration-300 transform hover:scale-125 hover:-rotate-12"
+                                        className="w-60 lg:96 mx-auto animate-pulse lg:dImg lg:transition-all duration-300 transform lg:hover:scale-125 lg:hover:-rotate-12"
                                         src="/assetes/banners/banner-img.png"
                                         alt="project illustration"
                                     />
