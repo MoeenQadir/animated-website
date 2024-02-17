@@ -23,3 +23,61 @@
     -webkit-backdrop-filter: blur(6.8px);
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+.dImg {
+      transform: perspective(1500px) rotateY(15deg);
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+      transition: transform 1s ease 0s;
+  }
+
+.dImg:hover {
+      transform: perspective(3000px) rotateY(5deg);
+  }
+
+/* styles.module.css */
+
+.buttonEffect {
+    border-radius: 1em;
+    perspective: 600px;
+    box-shadow:
+            0 0.125em 0.3125em rgba(0, 0, 0, 0.25),
+            0 0.02125em 0.06125em rgba(0, 0, 0, 0.25);
+}
+
+.buttonEffect::before {
+    border-radius: 0 0 1em 1em;
+    width: 100%;
+    height: 50%;
+    transform-origin: center top;
+    transform: rotateX(180deg);
+    background: #333232 linear-gradient(180deg, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4));
+    transition: 0.7s ease-in-out transform;
+}
+
+.buttonEffect:hover::before {
+    transform: rotateX(0);
+}
+   .buttonEffect {
+       transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+
+.buttonEffect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.headingEffect {
+    transition: transform 0.3s ease;
+}
+
+.headingEffect:hover {
+    transform: translateY(-5px);
+}
+
+.imageEffect {
+    transition: transform 0.3s ease;
+}
+
+.imageEffect:hover {
+    transform: scale(1.02);
+}
