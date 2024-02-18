@@ -148,6 +148,7 @@ const Contributers = () => {
                                 </CardFooter>
                             </Card>
                         </div>
+                        <img src="/assetes/arrows/mobile-arrow.png" className={"h-32 mx-auto w-4 lg:hidden"} alt="mobile-arrow"/>
                         <div className={"w-full lg:w-6/12 flex items-center justify-center relative"}>
                             <Card className="mt-6 w-full mx-5 glossy-card text-white animate-pulse text-center relative transition-all duration-300 transform  hover:shadow-lg"
                                   style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
@@ -166,6 +167,7 @@ const Contributers = () => {
                             </Card>
                             <img src="/assetes/arrows/down-arrow.png" className="z-10 absolute animate-pulse -bottom-8 left-20 transform -translate-x-1/2 hidden lg:inline" alt="arrow" />
                         </div>
+                        <img src="/assetes/arrows/mobile-arrow.png" className={"h-32 mx-auto w-4 lg:hidden"} alt="mobile-arrow"/>
                         <div className={"w-full lg:w-3/12 flex justify-center"}>
                             <Card className="mt-6 w-72 h-80 text-center mx-auto lg:mx-0 glossy-card text-white relative transition-all duration-300 transform  hover:shadow-lg"
                                   style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
