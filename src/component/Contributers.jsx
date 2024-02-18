@@ -36,7 +36,7 @@ const Contributers = () => {
                                          data-aos-offset="50"
                                          data-aos-easing="ease-in-sine">
 
-                                        <h1 className="text-white font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white transition-transform animate__animated animate__fadeInDown headingEffect transform "
+                                        <h1 className="text-white py-8 lg:py-0 font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white transition-transform animate__animated animate__fadeInDown headingEffect transform "
                                             data-aos="fade-right"
                                             data-aos-offset="70"
                                             data-aos-easing="ease-in-sine">
@@ -59,7 +59,7 @@ const Contributers = () => {
                                             and innovation.
                                         </p>
                                         <Button
-                                            className="rounded-full mt-12 bg-[#ffffca] animate__animated animate__fadeInDown headingEffect buttonEffect transform hover:scale-110 transition duration-300 shadow-2xl text-bold text-black"
+                                            className="rounded-full my-20 lg:my-0 mt-20 lg:mt-12 bg-[#ffffca] animate__animated animate__fadeInDown headingEffect buttonEffect transform hover:scale-110 transition duration-300 shadow-2xl text-bold text-black"
                                             data-aos="fade-right"
                                             data-aos-offset="120"
                                             data-aos-easing="ease-in-sine">
@@ -138,7 +138,7 @@ const Contributers = () => {
                             </div>
                         </div>
                     </div>
-                    <h1 className="text-white transform hover:scale-110 transition duration-300 animate__fadeInDown w-full text-center mt-8 lg:mb-32 pt-8 lg:pt-0 font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white"
+                    <h1 className="text-white py-8 lg:py-0 transform hover:scale-110 transition duration-300 animate__fadeInDown w-full text-center mt-8 lg:mb-32 pt-8 lg:pt-0 font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white"
                         data-aos="fade-down"
                         data-aos-offset="90"
                         data-aos-easing="ease-in-sine">

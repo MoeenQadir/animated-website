@@ -46,7 +46,7 @@ const Privacy = () => {
                             </div>
                     </div>
                     <div className={"w-full text-center lg:absolute"}>
-                    <h3 className={"text-white text-2xl md:text-3xl lg:mt-32 lg:text-4xl font-bold"}
+                    <h3 className={"text-white py-8 lg:py-0 text-2xl md:text-3xl lg:mt-32 lg:text-4xl font-bold"}
                         data-aos="fade-up"
                         data-aos-offset="70"
                         data-aos-easing="ease-in-sine">Share Your Story</h3>
