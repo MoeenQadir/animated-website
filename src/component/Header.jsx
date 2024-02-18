@@ -112,7 +112,7 @@ const Header = () => {
                 </nav>
                 <MobileNavbar isOpen={isOpen} handleClose={closeNavbar} />
             </header>
-            <div className="wrapper z-20">
+            <div className="wrapper hidden lg:block z-20">
                 <div><span className="dot"></span></div>
                 <div><span className="dot"></span></div>
                 <div><span className="dot"></span></div>

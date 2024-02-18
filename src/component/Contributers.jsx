@@ -36,7 +36,7 @@ const Contributers = () => {
                                          data-aos-offset="50"
                                          data-aos-easing="ease-in-sine">
 
-                                        <h1 className="text-white font-bold absolute text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white transition-transform animate__animated animate__fadeInDown headingEffect transform "
+                                        <h1 className="text-white font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white transition-transform animate__animated animate__fadeInDown headingEffect transform "
                                             data-aos="fade-right"
                                             data-aos-offset="70"
                                             data-aos-easing="ease-in-sine">
@@ -219,7 +219,7 @@ const Contributers = () => {
                     </div>
                 </div>
                 <section className="stage hidden lg:block relative z-20">
-                    <figure className="ball-two bubble">
+                    <figure className="ball-two bubble hidden lg:bloack">
                     </figure>
                 </section>
             </div>
