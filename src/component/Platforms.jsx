@@ -26,7 +26,7 @@ const Platforms = () => {
                                         </div>
                                     </div>
                                     <div className="text-center lg:text-left  w-full sm:mx-auto lg:mr-auto lg:w-6/12">
-                                        <h1 className="text-white py-4 lg:py-0 animate__animated animate__fadeInDown headingEffect font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white">
+                                        <h1 className="text-white py-4 lg:py-6 animate__animated animate__fadeInDown headingEffect font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white">
                                             Our Platform
                                         </h1>
                                         <p className="mt-8 text-white dark:text-gray-300 animate__animated animate__fadeInDown headingEffect">
@@ -38,7 +38,7 @@ const Platforms = () => {
                                             <li className={"animate__animated animate__fadeInDown headingEffect"}>Offering Unfiltered Expressions and Thoughts</li>
                                         </ul>
 
-                                        <Button  className="rounded-full my-12 lg:my-0 animate-pulse buttonEffect bg-[#ffffca] text-bold text-black"
+                                        <Button  className="rounded-full my-12 lg:my-8 animate-pulse buttonEffect bg-[#ffffca] text-bold text-black"
                                                  style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                                  }}
                                         >
