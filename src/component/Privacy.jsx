@@ -45,7 +45,7 @@ const Privacy = () => {
                                 </div>
                             </div>
                     </div>
-                    <div className={"w-full text-center "}>
+                    <div className={"w-full text-center absolute"}>
                     <h3 className={"text-white text-2xl md:text-3xl lg:mt-32 lg:text-4xl font-bold"}
                         data-aos="fade-up"
                         data-aos-offset="70"
@@ -55,8 +55,11 @@ const Privacy = () => {
                             data-aos-offset="110"
                             data-aos-easing="ease-in-sine">Type your story below and be a catalyst for change. Your words matter, and your voice makes a <br/> difference. Together, let's create a future filled with shared dreams and collective progress</h5>
                     </div>
+                    <div className={"flex justify-end me-44"}>
+                        <label className={"relative w-96 z-20 hidden lg:block"}><input className="bubble-three" type="checkbox" name="dummy" value="on"/></label>
+                    </div>
                     <div className={"container mx-auto"}>
-                        <h3 className={"text-white ms-4 md:ms-8 lg:ms-64 text-2xl md:text-3xl lg:mt-32 mt-16 lg:text-4xl font-bold transition-all duration-300 animate__animated animate__fadeInDown headingEffect"}
+                        <h3 className={"text-white ms-4 md:ms-8 lg:ms-64 text-2xl md:text-3xl lg:mt-64 mt-16 lg:text-4xl font-bold transition-all duration-300 animate__animated animate__fadeInDown headingEffect"}
                             data-aos="fade-right"
                             data-aos-offset="120"
                             data-aos-easing="ease-in-sine">Describe yourself</h3>

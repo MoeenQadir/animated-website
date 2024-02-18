@@ -112,6 +112,24 @@ const Header = () => {
                 </nav>
                 <MobileNavbar isOpen={isOpen} handleClose={closeNavbar} />
             </header>
+            <div className="wrapper z-20">
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+                <div><span className="dot"></span></div>
+            </div>
+
             <div className="relative h-screen">
                 <img
                     className="absolute inset-0 w-full h-full animate-pulse-slow transform  transition duration-500"
@@ -150,7 +168,6 @@ const Header = () => {
                         </motion.div>
                     </div>
                 </div>
-
             </div>
         </>
     );

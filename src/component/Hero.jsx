@@ -15,8 +15,7 @@ const Hero = () => {
                     <>
                         <div className="container w-full m-auto lg:px-6 md:px-12">
                             <div className="relative lg:flex lg:items-center lg:gap-4">
-                                <div
-                                    className="text-center lg:text-left lg:mt-12 lg:mt-0 w-full sm:mx-auto lg:mr-auto lg:w-6/12">
+                                <div className="text-center lg:text-left lg:mt-12 lg:mt-0 w-full sm:mx-auto lg:mr-auto lg:w-6/12">
                                     <h1 className="text-white font-bold animate__animated animate__fadeInDown headingEffect text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white transition-transform transform  duration-300"
                                         style={{"box-shadow": "rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;"}}
                                         data-aos="fade-right"
@@ -57,6 +56,8 @@ const Hero = () => {
                                         src="/assetes/banners/banner-img.png"
                                         alt="project illustration"
                                     />
+                                </div>
+                                <div className="ball hidden lg:block">
                                 </div>
                             </div>
                         </div>

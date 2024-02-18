@@ -15,12 +15,15 @@ const Platforms = () => {
                         <>
                             <div className=" container w-full m-auto lg:px-6 md:px-12">
                                 <div className="relative lg:flex lg:items-center lg:gap-4">
+
                                     <div className="w-full lg:w-5/12 lg:-mr-16">
                                         <img
-                                            className="w-60 lg:80 mx-auto animate-pulse pt-8 lg:0 dImg transition-all duration-300 transform hover:scale-125 hover:rotate-12"
+                                            className="w-60 lg:80 z-20 mx-auto animate-pulse pt-8 lg:0 dImg transition-all duration-300 transform hover:scale-125 hover:rotate-12"
                                             src="/assetes/banners/boy.png"
                                             alt="project illustration"
                                         />
+                                        <div className="ball hidden lg:block">
+                                        </div>
                                     </div>
                                     <div className="text-center lg:text-left  w-full sm:mx-auto lg:mr-auto lg:w-6/12">
                                         <h1 className="text-white animate__animated animate__fadeInDown headingEffect font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white">
