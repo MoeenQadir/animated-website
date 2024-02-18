@@ -112,7 +112,7 @@ const Header = () => {
                 </nav>
                 <MobileNavbar isOpen={isOpen} handleClose={closeNavbar} />
             </header>
-            <div className="wrapper hidden md:block z-20">
+            <div className="wrapper w-full overflow-hidden z-20">
                 <div><span className="dot"></span></div>
                 <div><span className="dot"></span></div>
                 <div><span className="dot"></span></div>
@@ -143,7 +143,7 @@ const Header = () => {
                             animate={{ opacity: 1, y: 0 }}   // Animation state, y: 0 means no vertical movement (position remains the same)
                             transition={{ duration: 0.8 }}
                         >
-                            <h1 className="text-black text-center text-3xl font-bold sm:text-4xl md:text-5xl animate__animated animate__fadeInDown headingEffect">
+                            <h1 className="text-black py-10 lg:py-0 text-center text-3xl font-bold sm:text-4xl md:text-5xl animate__animated animate__fadeInDown headingEffect">
                                 Uniting Voices, Ideas, and <br /> Dreams for a Brighter Tomorrow!
                             </h1>
                         </motion.div>

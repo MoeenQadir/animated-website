@@ -22,7 +22,7 @@ const Platforms = () => {
                                             src="/assetes/banners/boy.png"
                                             alt="project illustration"
                                         />
-                                        <div className="ball hidden lg:block">
+                                        <div className="ball py-6">
                                         </div>
                                     </div>
                                     <div className="text-center lg:text-left  w-full sm:mx-auto lg:mr-auto lg:w-6/12">

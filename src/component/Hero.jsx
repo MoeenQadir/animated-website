@@ -50,7 +50,7 @@ const Hero = () => {
                                         Join Now
                                     </Button>
                                 </div>
-                                <div className="w-full lg:w-5/12 lg:-mr-16">
+                                <div className="w-full lg:w-5/12 lg:-mr-16 py-6 lg:py-0">
                                     <img
                                         className="w-60 lg:96 mx-auto py-4 lg:py-0 animate-pulse lg:dImg lg:transition-all duration-300 transform lg:hover:scale-125 lg:hover:-rotate-12"
                                         src="/assetes/banners/banner-img.png"

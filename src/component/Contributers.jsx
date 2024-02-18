@@ -217,7 +217,7 @@ const Contributers = () => {
                         </div>
                     </div>
                 </div>
-                <div className={"hidden lg:block"}>
+                <div className={""}>
                     <section className="stage hidden lg:block relative z-20">
                         <figure className="ball-two bubble hidden lg:block">
                         </figure>
