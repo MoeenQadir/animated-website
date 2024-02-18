@@ -18,7 +18,7 @@ const Privacy = () => {
                          data-aos="fade-up"
                          data-aos-offset="120"
                          data-aos-easing="ease-in-sine">
-                            <Button  className="rounded-full my-16 bg-[#ffffca] buttonEffect text-bold text-black"
+                            <Button  className="rounded-full my-16 md:my-4 lg:my-16 bg-[#ffffca] buttonEffect text-bold text-black"
                                      style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                      }}>
                                 Join the Movement
@@ -45,7 +45,7 @@ const Privacy = () => {
                                 </div>
                             </div>
                     </div>
-                    <div className={"w-full text-center absolute"}>
+                    <div className={"w-full text-center lg:absolute"}>
                     <h3 className={"text-white text-2xl md:text-3xl lg:mt-32 lg:text-4xl font-bold"}
                         data-aos="fade-up"
                         data-aos-offset="70"

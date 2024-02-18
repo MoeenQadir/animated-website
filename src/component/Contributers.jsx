@@ -144,8 +144,7 @@ const Contributers = () => {
                         data-aos-easing="ease-in-sine">
                         How To Join
                     </h1>
-                    <div
-                        className={"relative z-10 flex flex-col lg:flex-row py-2 container mx-auto lg:justify-center mx-auto"}>
+                    <div className={"relative z-10 flex flex-col lg:flex-row py-2 container mx-auto lg:justify-center mx-auto"}>
                         <div className={"w-full lg:w-3/12 flex justify-center"}>
                             <Card
                                 className="mt-6 w-72 h-80 mx-auto lg:mx-0 animate-pulse-slow transform  transition duration-500 text-center glossy-card text-white relative transition-all duration-300 transform  hover:shadow-lg"
@@ -218,10 +217,12 @@ const Contributers = () => {
                         </div>
                     </div>
                 </div>
-                <section className="stage hidden lg:block relative z-20">
-                    <figure className="ball-two bubble hidden lg:bloack">
-                    </figure>
-                </section>
+                <div className={"hidden lg:block"}>
+                    <section className="stage hidden lg:block relative z-20">
+                        <figure className="ball-two bubble hidden lg:block">
+                        </figure>
+                    </section>
+                </div>
             </div>
         </>
     );
