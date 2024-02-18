@@ -21,7 +21,7 @@ const Contributers = () => {
         <>
             <div className="relative bg-[#18153a] h-auto lg:h-screen">
                 <img
-                    className="absolute w-full h-auto animate-pulse-slow transform hover:scale-105 transition duration-500"
+                    className="absolute w-full h-auto animate-pulse-slow transform  transition duration-500"
                     src="/assetes/screens/screen4.png"
                     alt="hero background image"
                 />
@@ -34,7 +34,7 @@ const Contributers = () => {
                                          data-aos="fade-right"
                                          data-aos-offset="50"
                                          data-aos-easing="ease-in-sine">
-                                        <h1 className="text-white font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white transition-transform animate__animated animate__fadeInDown headingEffect transform hover:scale-105"
+                                        <h1 className="text-white font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white transition-transform animate__animated animate__fadeInDown headingEffect transform "
 
                                             data-aos="fade-right"
                                             data-aos-offset="70"
@@ -67,7 +67,7 @@ const Contributers = () => {
                                                               data-aos-easing="ease-in-sine">
                                                     <TimelineConnector />
                                                     <TimelineHeader>
-                                                        <TimelineIcon className="p-4 bg-gradient-to-r from-[#c849ef] to-[#fb6ee1] transition-all duration-300 transform hover:scale-105">
+                                                        <TimelineIcon className="p-4 bg-gradient-to-r from-[#c849ef] to-[#fb6ee1] transition-all duration-300 transform ">
                                                         </TimelineIcon>
                                                         <Typography variant="h5" color="white">
                                                             10%
@@ -82,7 +82,7 @@ const Contributers = () => {
                                                 <TimelineItem>
                                                     <TimelineConnector />
                                                     <TimelineHeader>
-                                                        <TimelineIcon className="p-4 border-2 border-white transition-all duration-300 transform hover:scale-105">
+                                                        <TimelineIcon className="p-4 border-2 border-white transition-all duration-300 transform ">
                                                         </TimelineIcon>
                                                         <Typography variant="h5" color="white"
                                                                     data-aos="fade-up"
@@ -105,7 +105,7 @@ const Contributers = () => {
                                                     data-aos-offset="100"
                                                     data-aos-easing="ease-in-sine">
                                                     <TimelineHeader>
-                                                        <TimelineIcon className="p-4 border-2 border-white transition-all duration-300 transform hover:scale-105">
+                                                        <TimelineIcon className="p-4 border-2 border-white transition-all duration-300 transform ">
                                                         </TimelineIcon>
                                                         <Typography variant="h5" color="white">
                                                             100%
@@ -132,7 +132,7 @@ const Contributers = () => {
                     </h1>
                     <div className={"relative z-10 flex flex-col lg:flex-row py-2 container mx-auto lg:justify-center mx-auto"}>
                         <div className={"w-full lg:w-3/12 flex justify-center"}>
-                            <Card className="mt-6 w-72 h-80 mx-auto lg:mx-0 animate-pulse-slow transform hover:scale-105 transition duration-500 text-center glossy-card text-white relative transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+                            <Card className="mt-6 w-72 h-80 mx-auto lg:mx-0 animate-pulse-slow transform  transition duration-500 text-center glossy-card text-white relative transition-all duration-300 transform  hover:shadow-lg"
                                   style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                   }}>
                                 <CardBody className={"my-auto"}>
@@ -149,7 +149,7 @@ const Contributers = () => {
                             </Card>
                         </div>
                         <div className={"w-full lg:w-6/12 flex items-center justify-center relative"}>
-                            <Card className="mt-6 w-full mx-5 glossy-card text-white animate-pulse text-center relative transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+                            <Card className="mt-6 w-full mx-5 glossy-card text-white animate-pulse text-center relative transition-all duration-300 transform  hover:shadow-lg"
                                   style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                   }}>
                                 <CardBody>
@@ -167,7 +167,7 @@ const Contributers = () => {
                             <img src="/assetes/arrows/down-arrow.png" className="z-10 absolute animate-pulse -bottom-8 left-20 transform -translate-x-1/2 hidden lg:inline" alt="arrow" />
                         </div>
                         <div className={"w-full lg:w-3/12 flex justify-center"}>
-                            <Card className="mt-6 w-72 h-80 text-center mx-auto lg:mx-0 glossy-card text-white relative transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+                            <Card className="mt-6 w-72 h-80 text-center mx-auto lg:mx-0 glossy-card text-white relative transition-all duration-300 transform  hover:shadow-lg"
                                   style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                   }}>
                                 <CardBody className={"my-auto"}>

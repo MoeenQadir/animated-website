@@ -68,7 +68,7 @@ const Privacy = () => {
                                       data-aos-offset="110"
                                       data-aos-easing="ease-in-sine"></textarea>
                             <div className={"flex justify-end w-full me-4 lg:me-44  text-white mt-4"}
-                                 data-aos="fade-left"
+                                 data-aos="fade-down"
                                  data-aos-offset="120"
                                  data-aos-easing="ease-in-sine">
                                 <p>Minimum 1024 Characters</p>

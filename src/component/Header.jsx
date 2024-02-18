@@ -79,11 +79,9 @@ const Header = () => {
                                 </h2>
                             </a>
                             <button
-                                style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
-                                }}
                                 aria-label="hamburger"
                                 id="hamburger"
-                                className="block lg:hidden buttonEffect"
+                                className="block lg:hidden"
                                 onClick={toggleNavbar}
                             >
                                 <div className="hamburger">
@@ -116,7 +114,7 @@ const Header = () => {
             </header>
             <div className="relative h-screen">
                 <img
-                    className="absolute inset-0 w-full h-full animate-pulse-slow transform hover:scale-105 transition duration-500"
+                    className="absolute inset-0 w-full h-full animate-pulse-slow transform  transition duration-500"
                     src="/assetes/screens/screen1.png"
                     alt="hero background image"
                 />
@@ -152,8 +150,8 @@ const Header = () => {
                         </motion.div>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </>
     );
 };

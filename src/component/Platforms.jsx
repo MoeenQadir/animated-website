@@ -6,7 +6,7 @@ const Platforms = () => {
         <>
             <div className="relative bg-[#1f1541] h-auto lg:h-screen">
                 <img
-                    className="absolute inset-0 w-full h-full animate-pulse-slow transform hover:scale-110 transition duration-500"
+                    className="absolute inset-0 w-full h-full animate-pulse-slow transform transition duration-500"
                     src="/assetes/screens/screen3.png"
                     alt="hero background image"
                 />

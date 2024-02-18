@@ -23,14 +23,7 @@ function App() {
        <Platforms/>
        <Contributers/>
        <Privacy/>
-       <div id="background-wrap " className={"z-20"}>
-           <div className="bubble x1"></div>
-           <div className="bubble x3"></div>
-           <div className="bubble x5"></div>
-           <div className="bubble x7"></div>
-           <div className="bubble x8"></div>
-           <div className="bubble x10"></div>
-       </div>
+
    </>
   );
 }
