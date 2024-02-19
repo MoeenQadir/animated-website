@@ -8,7 +8,7 @@ const Privacy = () => {
         <>
             <div className="relative bg-[#181539] lg:bg-none">
                 <img
-                    className="absolute inset-0 w-full lg:h-screen h-auto"
+                    className="absolute inset-0 w-full lg:h-screen bg-privacy-image "
                     style={{"height":"auto"}}
                     src="/assetes/screens/screen5.png"
                     alt="hero background image"
@@ -46,7 +46,7 @@ const Privacy = () => {
                             </div>
                     </div>
                     <div className={"w-full text-center lg:absolute"}>
-                    <h3 className={"text-white py-8 lg:py-0 text-2xl md:text-3xl lg:mt-32 lg:text-4xl font-bold"}
+                    <h3 className={"text-white py-8 lg:py-0 text-2xl md:text-3xl lg:mt-16 lg:text-4xl font-bold"}
                         data-aos="fade-up"
                         data-aos-offset="70"
                         data-aos-easing="ease-in-sine">Share Your Story</h3>
@@ -59,7 +59,7 @@ const Privacy = () => {
                         <label className={"relative w-60 lg:w-96 z-20 lg:block"}><input className="bubble-three" type="checkbox" name="dummy" value="on"/></label>
                     </div>
                     <div className={"container mx-auto"}>
-                        <h3 className={"text-white ms-4 md:ms-8 lg:ms-64 text-2xl md:text-3xl lg:mt-64 mt-16 lg:text-4xl font-bold transition-all duration-300 animate__animated animate__fadeInDown headingEffect"}
+                        <h3 className={"text-white ms-4 md:ms-8 lg:ms-64 text-2xl md:text-3xl lg:mt-36 mt-16 lg:text-4xl font-bold transition-all duration-300 animate__animated animate__fadeInDown headingEffect"}
                             data-aos="fade-right"
                             data-aos-offset="120"
                             data-aos-easing="ease-in-sine">Describe yourself</h3>

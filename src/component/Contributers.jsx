@@ -19,13 +19,12 @@ import {
 const Contributers = () => {
     return (
         <>
-            <div className="relative bg-[#18153a] h-auto lg:h-screen">
+            <div className="relative bg-[#18153a] lg:h-screen">
                 <img
-                    className="absolute w-full h-auto animate-pulse-slow transform  transition duration-500"
+                    className="absolute w-full h-auto  bg-hero-image"
                     src="/assetes/screens/screen4.png"
                     alt="hero background image"
                 />
-
                 <div className="relative mx-auto px-6 md:px-12 lg:px-6">
                     <div className="mb-4 text-center space-y-4 md:mb-8 lg:w-11/12 lg:mx-auto">
                         <div className=" container w-full m-auto lg:px-6 md:px-12">

@@ -559,3 +559,31 @@ label {
         transform: translate(16%,0);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .bg-hero-image {
+        min-height: 400vh; /* Set minimum height to viewport height */
+        object-fit: cover; /* Ensure the image covers the entire container */
+        height: auto;
+
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .bg-privacy-image {
+        min-height: 205vh; /* Set minimum height to viewport height */
+        object-fit: cover; /* Ensure the image covers the entire container */
+        height: auto;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 30em) and (max-width: 50em) {
+    .bg-privacy-image {
+        min-height: 175vh; /* Set minimum height to viewport height */
+        object-fit: cover; /* Ensure the image covers the entire container */
+        height: auto;
+        width: 100%;
+    }
+}
