@@ -18,7 +18,7 @@ const Privacy = () => {
                          data-aos="fade-up"
                          data-aos-offset="120"
                          data-aos-easing="ease-in-sine">
-                            <Button  className="rounded-full my-16 md:my-4 lg:my-16 bg-[#ffffca] buttonEffect text-bold text-black"
+                            <Button  className="rounded-full hover:bg-[#2d395e] hover:text-white my-16 md:my-4 lg:my-16 bg-[#ffffca] buttonEffect text-bold text-black"
                                      style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                      }}>
                                 Join the Movement
@@ -29,7 +29,7 @@ const Privacy = () => {
                                          data-aos="fade-down"
                                          data-aos-offset="120"
                                          data-aos-easing="ease-in-sine">
-                                        <Card className="mt-6 w-full mx-4 lg:px-0 animate-pulse glossy-card text-white text-center relative "
+                                        <Card className="mt-6 w-full hover:scale-105 mx-4 lg:px-0 animate-pulse glossy-card text-white text-center relative "
                                               style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                               }}>
                                             <CardBody>
@@ -77,7 +77,7 @@ const Privacy = () => {
                                 <p>Minimum 1024 Characters</p>
                             </div>
                             <div className={"flex justify-center mt-8"}>
-                                <Button  className="rounded-full buttonEffect mt-6 bg-[#ffffca] text-bold text-black"
+                                <Button  className="rounded-full hover:bg-white hover:text-black buttonEffect mt-6 bg-[#ffffca] text-bold text-black"
                                          style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                          }}
                                 >
@@ -90,16 +90,16 @@ const Privacy = () => {
                                data-aos="fade-up"
                                data-aos-offset="80"
                                data-aos-easing="ease-in-sine">Terms of Service</h3>
-                           <div className={"flex space-x-4"}>
-                               <span className={"h-8 w-8 rounded-full animate-pulse mt-8 flex justify-center items-center border-2 border-white"}
+                           <div className={"flex space-x-4 cursor-pointer "}>
+                               <span className={"h-8 w-8 rounded-full cursor-pointer  animate-pulse mt-8 flex justify-center items-center border-2 border-white"}
                                      data-aos="fade-up"
                                      data-aos-offset="80"
                                      data-aos-easing="ease-in-sine"><BsInstagram /></span>
-                               <span className={"h-8 w-8 rounded-full animate-pulse mt-8 flex justify-center items-center border-2 border-white"}
+                               <span className={"h-8 w-8 rounded-full hover:scale-110 animate-pulse mt-8 flex justify-center items-center border-2 border-white"}
                                      data-aos="fade-up"
                                      data-aos-offset="100"
                                      data-aos-easing="ease-in-sine"><FaTwitter className={"text-white"}/></span>
-                               <span className={"h-8 w-8 rounded-full animate-pulse mt-8 flex justify-center items-center border-2 border-white"}
+                               <span className={"h-8 w-8 rounded-full hover:scale-110 animate-pulse mt-8 flex justify-center items-center border-2 border-white"}
                                      data-aos="fade-up"
                                      data-aos-offset="120"
                                      data-aos-easing="ease-in-sine"><FaDiscord className={"text-white"}/></span>

@@ -38,7 +38,7 @@ const Platforms = () => {
                                             <li className={"animate__animated animate__fadeInDown headingEffect"}>Offering Unfiltered Expressions and Thoughts</li>
                                         </ul>
 
-                                        <Button  className="rounded-full my-12 lg:my-8 animate-pulse buttonEffect bg-[#ffffca] text-bold text-black"
+                                        <Button  className="rounded-full hover:bg-[#aed9ed] my-12 lg:my-8 animate-pulse buttonEffect bg-[#ffffca] text-bold text-black"
                                                  style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                                  }}
                                         >

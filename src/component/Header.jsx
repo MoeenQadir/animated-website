@@ -61,7 +61,7 @@ const Header = () => {
             <header>
                 <nav
                     id="header_"
-                    className="fixed top-0 left-0 z-20 w-full bg-[#75d3f2]"
+                    className=" z-20 w-full bg-[#75d3f2]"
                 >
                     <div className="container mx-auto px-6 md:px-12 lg:px-6">
                         <div className="flex items-center justify-between py-4">
@@ -89,20 +89,20 @@ const Header = () => {
                                 </div>
                             </button>
                             <div id="navbar" className="hidden lg:flex lg:items-center">
-                                <ul className="flex space-x-6 text-black font-medium">
-                                    <li>
+                                <ul className="flex space-x-6 text-black  font-medium">
+                                    <li className={"hover:text-white"}>
                                         <a href="#">Mission</a>
                                     </li>
-                                    <li>
+                                    <li className={"hover:text-white"}>
                                         <a href="#">Platform</a>
                                     </li>
-                                    <li>
+                                    <li className={"hover:text-white"}>
                                         <a href="#">Contribute</a>
                                     </li>
-                                    <li>
+                                    <li className={"hover:text-white"}>
                                         <a href="#">Privacy</a>
                                     </li>
-                                    <li>
+                                    <li className={"hover:text-white"}>
                                         <a href="#">Contact Us</a>
                                     </li>
                                 </ul>
@@ -112,7 +112,7 @@ const Header = () => {
                 </nav>
                 <MobileNavbar isOpen={isOpen} handleClose={closeNavbar} />
             </header>
-            <div className="wrapper w-full overflow-hidden z-20">
+            <div className="wrapper w-full overflow-hidden z-10">
                 <div><span className="dot"></span></div>
                 <div><span className="dot"></span></div>
                 <div><span className="dot"></span></div>
@@ -137,7 +137,7 @@ const Header = () => {
                     alt="hero background image"
                 />
                 <div className="relative container mx-auto px-6 md:px-12 lg:px-6">
-                    <div className="mb-12 pt-40 text-center space-y-4 md:mb-20 md:pt-44 lg:w-8/12 lg:mx-auto">
+                    <div className="mb-12 pt-8 text-center space-y-4 md:mb-20 md:pt-44 lg:w-8/12 lg:mx-auto">
                         <motion.div
                             initial={{ opacity: 0, y: -20 }} // Initial state (before animation), y: -20 means moving 20 pixels upwards
                             animate={{ opacity: 1, y: 0 }}   // Animation state, y: 0 means no vertical movement (position remains the same)
@@ -162,7 +162,7 @@ const Header = () => {
                         <Button
                             style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                             }}
-                            className="rounded-full bg-[#ffffca] buttonEffect text-bold text-black transform hover:scale-110 transition duration-300 shadow-2xl">
+                            className="rounded-full bg-[#ffffca] hover:bg-[#045a78] hover:text-white buttonEffect text-bold text-black transform hover:scale-110 transition duration-300 shadow-2xl">
                             Explore Now
                         </Button>
                         </motion.div>

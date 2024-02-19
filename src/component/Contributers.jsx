@@ -59,7 +59,7 @@ const Contributers = () => {
                                             and innovation.
                                         </p>
                                         <Button
-                                            className="rounded-full my-20 lg:my-0 mt-20 lg:mt-12 bg-[#ffffca] animate__animated animate__fadeInDown headingEffect buttonEffect transform hover:scale-110 transition duration-300 shadow-2xl text-bold text-black"
+                                            className="rounded-full hover:bg-gradient-to-r from-[#c849ef] to-[#fb6ee1] hover:text-white my-20 lg:my-0 mt-20 lg:mt-12 bg-[#ffffca] animate__animated animate__fadeInDown headingEffect buttonEffect transform hover:scale-110 transition duration-300 shadow-2xl text-bold text-black"
                                             data-aos="fade-right"
                                             data-aos-offset="120"
                                             data-aos-easing="ease-in-sine">
@@ -147,7 +147,7 @@ const Contributers = () => {
                     <div className={"relative z-10 flex flex-col lg:flex-row py-2 container mx-auto lg:justify-center mx-auto"}>
                         <div className={"w-full lg:w-3/12 flex justify-center"}>
                             <Card
-                                className="mt-6 w-72 h-80 mx-auto lg:mx-0 animate-pulse-slow transform  transition duration-500 text-center glossy-card text-white relative transition-all duration-300 transform  hover:shadow-lg"
+                                className="mt-6 w-72 h-80 mx-auto hover:scale-105 lg:mx-0 animate-pulse-slow transform  transition duration-500 text-center glossy-card text-white relative transition-all duration-300 transform  hover:shadow-lg"
                                 style={{
                                     boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                 }}>
@@ -169,7 +169,7 @@ const Contributers = () => {
                              alt="mobile-arrow"/>
                         <div className={"w-full lg:w-6/12 flex items-center justify-center relative"}>
                             <Card
-                                className="mt-6 w-full mx-5 glossy-card text-white animate-pulse text-center relative transition-all duration-300 transform  hover:shadow-lg"
+                                className="mt-6 hover:scale-105 w-full mx-5 glossy-card text-white animate-pulse text-center relative transition-all duration-300 transform  hover:shadow-lg"
                                 style={{
                                     boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                 }}>
@@ -194,7 +194,7 @@ const Contributers = () => {
                              alt="mobile-arrow"/>
                         <div className={"w-full lg:w-3/12 flex justify-center"}>
                             <Card
-                                className="mt-6 w-72 h-80 text-center mx-auto lg:mx-0 glossy-card text-white relative transition-all duration-300 transform  hover:shadow-lg"
+                                className="mt-6 hover:scale-105 w-72 h-80 text-center mx-auto lg:mx-0 glossy-card text-white relative transition-all duration-300 transform  hover:shadow-lg"
                                 style={{
                                     boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                 }}>
