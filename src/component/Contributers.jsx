@@ -65,7 +65,7 @@ const Contributers = () => {
                                             Get Started
                                         </Button>
                                     </div>
-                                    <div className="overflow-hidden w-full lg:w-5/12 lg:-mr-16"
+                                    <div className="overflow-hidden hidden md:block w-full lg:w-5/12 lg:-mr-16"
                                          data-aos="fade-up"
                                          data-aos-offset="50"
                                          data-aos-easing="ease-in-sine">
@@ -137,7 +137,7 @@ const Contributers = () => {
                             </div>
                         </div>
                     </div>
-                    <h1 className="text-white py-8 lg:py-0 transform hover:scale-110 transition duration-300 animate__fadeInDown w-full text-center mt-8 lg:mb-32 pt-8 lg:pt-0 font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white"
+                    <h1 className="text-white lg:py-0 transform hover:scale-110 transition duration-300 animate__fadeInDown w-full text-center lg:mb-24 pt-4 lg:pt-0 font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white"
                         data-aos="fade-down"
                         data-aos-offset="90"
                         data-aos-easing="ease-in-sine">
@@ -146,7 +146,7 @@ const Contributers = () => {
                     <div className={"relative z-10 flex flex-col lg:flex-row py-2 container mx-auto lg:justify-center mx-auto"}>
                         <div className={"w-full lg:w-3/12 flex justify-center"}>
                             <Card
-                                className="mt-6 w-72 h-80 mx-auto hover:scale-105 lg:mx-0 animate-pulse-slow transform  transition duration-500 text-center glossy-card text-white relative transition-all duration-300 transform  hover:shadow-lg"
+                                className="mt-6 w-72 lg:h-80 h-64 mx-auto hover:scale-105 lg:mx-0 animate-pulse-slow transform  transition duration-500 text-center glossy-card text-white relative transition-all duration-300 transform  hover:shadow-lg"
                                 style={{
                                     boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                 }}>
@@ -164,7 +164,7 @@ const Contributers = () => {
                                 </CardFooter>
                             </Card>
                         </div>
-                        <img src="/assetes/arrows/mobile-arrow.png" className={"h-32 mx-auto w-4 lg:hidden"}
+                        <img src="/assetes/arrows/mobile-arrow.png" className={"h-24 mx-auto w-4 lg:hidden"}
                              alt="mobile-arrow"/>
                         <div className={"w-full lg:w-6/12 flex items-center justify-center relative"}>
                             <Card
@@ -189,11 +189,11 @@ const Contributers = () => {
                                  className="z-10 absolute animate-pulse -bottom-8 left-20 transform -translate-x-1/2 hidden lg:inline"
                                  alt="arrow"/>
                         </div>
-                        <img src="/assetes/arrows/mobile-arrow.png" className={"h-32 mx-auto w-4 lg:hidden"}
+                        <img src="/assetes/arrows/mobile-arrow.png" className={"h-24 mx-auto w-4 lg:hidden"}
                              alt="mobile-arrow"/>
                         <div className={"w-full lg:w-3/12 flex justify-center"}>
                             <Card
-                                className="mt-6 hover:scale-105 w-72 h-80 text-center mx-auto lg:mx-0 glossy-card text-white relative transition-all duration-300 transform  hover:shadow-lg"
+                                className="mt-6 hover:scale-105 w-72 lg:h-80 h-72 text-center mx-auto lg:mx-0 glossy-card text-white relative transition-all duration-300 transform  hover:shadow-lg"
                                 style={{
                                     boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                 }}>
@@ -216,7 +216,7 @@ const Contributers = () => {
                         </div>
                     </div>
                 </div>
-                <div className={""}>
+                <div className={"hidden lg:block"}>
                     <section className="stage hidden lg:block relative z-20">
                         <figure className="ball-two bubble hidden lg:block">
                         </figure>

@@ -18,7 +18,7 @@ const Privacy = () => {
                          data-aos="fade-up"
                          data-aos-offset="120"
                          data-aos-easing="ease-in-sine">
-                            <Button  className="rounded-full hover:bg-[#2d395e] hover:text-white my-16 md:my-4 lg:my-16 bg-[#ffffca] buttonEffect text-bold text-black"
+                            <Button  className="rounded-full hover:bg-[#2d395e] hover:text-white my-8 md:my-4 lg:my-16 bg-[#ffffca] buttonEffect text-bold text-black"
                                      style={{boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"
                                      }}>
                                 Join the Movement

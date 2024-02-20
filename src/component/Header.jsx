@@ -137,13 +137,13 @@ const Header = () => {
                     alt="hero background image"
                 />
                 <div className="relative container mx-auto px-6 md:px-12 lg:px-6">
-                    <div className="mb-12 pt-8 text-center space-y-4 md:mb-20 md:pt-44 lg:w-8/12 lg:mx-auto">
+                    <div className="mb-12 pt-6 text-center space-y-4 md:mb-20 md:pt-36 lg:w-8/12 lg:mx-auto">
                         <motion.div
                             initial={{ opacity: 0, y: -20 }} // Initial state (before animation), y: -20 means moving 20 pixels upwards
                             animate={{ opacity: 1, y: 0 }}   // Animation state, y: 0 means no vertical movement (position remains the same)
                             transition={{ duration: 0.8 }}
                         >
-                            <h1 className="text-black py-10 lg:py-0 text-center text-3xl font-bold sm:text-4xl md:text-5xl animate__animated animate__fadeInDown headingEffect">
+                            <h1 className="text-black py-6 lg:py-0 text-center text-3xl font-bold sm:text-4xl md:text-5xl animate__animated animate__fadeInDown headingEffect">
                                 Uniting Voices, Ideas, and <br /> Dreams for a Brighter Tomorrow!
                             </h1>
                         </motion.div>
