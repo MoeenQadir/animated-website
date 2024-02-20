@@ -58,7 +58,7 @@ const Contributers = () => {
                                             and innovation.
                                         </p>
                                         <Button
-                                            className="rounded-full hover:bg-gradient-to-r from-[#c849ef] to-[#fb6ee1] hover:text-white my-20 lg:my-0 mt-20 lg:mt-12 bg-[#ffffca] animate__animated animate__fadeInDown headingEffect buttonEffect transform hover:scale-110 transition duration-300 shadow-2xl text-bold text-black"
+                                            className="rounded-full hover:bg-gradient-to-r from-[#c849ef] to-[#fb6ee1] hover:text-white lg: my-10 lg:my-0 mt-20 lg:mt-12 bg-[#ffffca] animate__animated animate__fadeInDown headingEffect buttonEffect transform hover:scale-110 transition duration-300 shadow-2xl text-bold text-black"
                                             data-aos="fade-right"
                                             data-aos-offset="120"
                                             data-aos-easing="ease-in-sine">
@@ -137,7 +137,7 @@ const Contributers = () => {
                             </div>
                         </div>
                     </div>
-                    <h1 className="text-white lg:py-0 transform hover:scale-110 transition duration-300 animate__fadeInDown w-full text-center lg:mb-24 pt-4 lg:pt-0 font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white"
+                    <h1 className="text-white lg:py-0 transform hover:scale-110 transition duration-300 animate__fadeInDown w-full text-center lg:mb-24 font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl dark:text-white"
                         data-aos="fade-down"
                         data-aos-offset="90"
                         data-aos-easing="ease-in-sine">

@@ -25,7 +25,7 @@ const Privacy = () => {
                             </Button>
                             <div className={"w-full flex justify-center"}>
                                 <div className={"w-full lg:w-11/12 flex items-center "}>
-                                    <div className={"w-full lg:w-10/12 mx-auto  flex items-center justify-center transition-all duration-300 animate__animated animate__fadeInDown headingEffect"}
+                                    <div className={"w-10/12 lg:w-10/12 mx-auto  flex items-center justify-center transition-all duration-300 animate__animated animate__fadeInDown headingEffect"}
                                          data-aos="fade-down"
                                          data-aos-offset="120"
                                          data-aos-easing="ease-in-sine">

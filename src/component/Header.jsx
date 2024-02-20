@@ -132,7 +132,7 @@ const Header = () => {
 
             <div className="relative h-screen">
                 <img
-                    className="absolute inset-0 w-full h-full animate-pulse-slow transform  transition duration-500"
+                    className="absolute inset-0 w-full h-screen animate-pulse-slow transform  transition duration-500"
                     src="/assetes/screens/screen1.png"
                     alt="hero background image"
                 />
